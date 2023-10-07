@@ -1,0 +1,25 @@
+baseURL = 'https://mytraveltreasury/'
+languageCode = 'en-us'
+title = 'My Travel Treasury'
+theme = 'ananke'
+
+[params]
+  commentoEnable = true
+  
+[languages]
+  [languages.en]
+    title = "My Travel Treasury"
+    weight = 1
+    contentDir = "content/en"
+    # languageDirection = 'rtl' for Right-To-Left languages
+  [languages.it]
+    title = "My Travel Treasury IT"
+    weight = 2
+    contentDir = "content/it"
+  [languages.es]
+    title = "My Travel Treasury ES"
+    weight = 3
+    contentDir = "content/es"    
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/GoHugoIO"    
